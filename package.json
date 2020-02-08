@@ -1,0 +1,32 @@
+{
+   "name": "dockerpi-sensorhub",
+   "version": "1.0.0",
+   "description": "Node.js wrapper for the DockerPi SensorHub Raspberry Pi shield",
+   "author": "Jipema",
+   "private": false,
+   "license": "MIT",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/jipema/dockerpi-sensorhub"
+   },
+   "keywords": [
+      "dockerpi",
+      "sensorhub",
+      "sensor",
+      "raspberrypi",
+      "shield",
+      "temperature",
+      "humidity",
+      "pressure",
+      "pir",
+      "motion"
+   ],
+   "main": "DockerPiSensorHub.js",
+   "scripts": {
+      "start": "node example.js",
+      "test": "echo \"No test specified yet, sorry about that.\" && exit 0"
+   },
+   "dependencies": {
+      "i2c-bus": "^5.1.0"
+   }
+}
